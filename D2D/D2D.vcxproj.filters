@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{1addf03c-8139-4d4a-84ab-d174c9d0df77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{7308cfdc-d336-4628-b0a1-fdbe6299d120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{b34c8898-6464-4a37-9e1e-21d0df20c144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utiles">
+      <UniqueIdentifier>{0524ac8d-cf3c-458d-8a8a-b16102ac3f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{d22f9850-2853-4eb8-bc69-3cd9bd2a727d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{4f5be7ea-586b-481f-8ef9-3c80ec3f7b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lesson">
+      <UniqueIdentifier>{cd32a393-39a6-426c-937d-1b5f7736c30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{84914084-dca6-47e9-8130-0be51d5e7d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{be1ce48e-c29c-4995-b82d-37b86341be3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Time.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Scene.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SceneManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shader.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Xml.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Camera.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Keyboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Texture.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Mouse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\AnimationClip.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Animation.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\GameObject.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectWrite.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\Collider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\clipper.hpp">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Audio.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\AScene.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S01_IntroScene.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S02_IntroScene.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S03_LoadingScene.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S04_Chapter1.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BackGround.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\HellTakerMap.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Box.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\HellTaker.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Mob.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Pandemonica.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fire.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Dust.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Kick.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bone.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ObjectManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Huge.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Key.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\LockBox.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S05_Chapter2.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S03_DeathScene.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S09_Chapter6.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S07_Chapter4.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S08_Chapter5.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Rect.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Trap.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ClearEffect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Button.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S00_DialogSucces.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S06_Chapter3.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S10_Chapter7.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson\S11_Chapter8.h">
+      <Filter>Lesson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Time.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Scene.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\SceneManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shader.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Xml.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Camera.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Keyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Texture.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Mouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\AnimationClip.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Animation.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\GameObject.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectWrite.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\Collider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\clipper.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Audio.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\AScene.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S01_IntroScene.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S02_IntroScene.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S03_LoadingScene.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S04_Chapter1.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BackGround.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\HellTakerMap.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Box.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\HellTaker.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Mob.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Pandemonica.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fire.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Dust.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Kick.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bone.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\ObjectManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Huge.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Key.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\LockBox.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S05_Chapter2.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S03_DeathScene.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S09_Chapter6.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S07_Chapter4.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S08_Chapter5.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Rect.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Trap.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ClearEffect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Button.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S00_DialogSucces.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S06_Chapter3.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S10_Chapter7.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson\S11_Chapter8.cpp">
+      <Filter>Lesson</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D2D.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="_Shaders\10_Rect.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="_Shaders\00_Global.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="_Shaders\00_Animation.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
